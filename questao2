@@ -1,0 +1,15 @@
+import os
+
+os.system("cls || clear")
+#Escreva um programa que use um laço while para encontrar o primeiro número maior que 50 que seja divisível por 7. Exiba esse número.
+
+ 
+divisor = 7
+while True:
+    numero = float(input("Digite um numero maior que 50:  "))
+
+    if numero % divisor == 0:
+        break
+
+
+print(f" DIVISOR ENCONTRADO: {numero}")
