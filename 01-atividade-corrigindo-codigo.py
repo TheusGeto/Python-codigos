@@ -7,7 +7,7 @@ def ler_numeros():
         numeros.append(numero)
     return numeros
 
-def processar_numeros(numero):
+def processar_numeros(numeros):
     quantidade_pares = 0
     quantidade_impares = 0
     quantidade_positivos = 0
