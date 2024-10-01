@@ -7,7 +7,7 @@ os.system("cls || clear")
 @dataclass
 # Classe para representar uma família
 class Familia:
-    def __init__(self, salario, numero_filhos):
+    def __init__(self, salario, numero_filhos): #Inicia os atributos do objeto, define os valores iniciais dos dados
         self.salario = salario
         self.numero_filhos = numero_filhos
 
