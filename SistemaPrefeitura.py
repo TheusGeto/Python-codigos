@@ -25,7 +25,7 @@ def adicionar_familias(familias):
 
     # Salvando no arquivo
     with open("pesquisa_prefeitura.txt", "a") as arquivo:
-        arquivo.write(f"{salario},{numero_filhos}\n")  # Corrigido para 'numero_filhos'
+        arquivo.write(f"{salario},{numero_filhos}\n")  
 
     limpar_terminal()  # Limpa o terminal depois de adicionar uma família
 
@@ -57,7 +57,7 @@ def carregar_dados():
         with open("pesquisa_prefeitura.txt", "r") as arquivo:
             for linha in arquivo:
                 salario, numero_filhos = linha.strip().split(',')
-                familias.append(Familia(float(salario), int(numero_filhos)))  # Corrigido para 'numero_filhos'
+                familias.append(Familia(float(salario), int(numero_filhos))) 
     return familias
 
 # Para exibir o menu e realizar a escolha
