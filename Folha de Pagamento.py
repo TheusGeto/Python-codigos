@@ -1,5 +1,4 @@
 import os
-import os
 
 def limpar_terminal():
     # Limpa o terminal com Windows e Linux
